@@ -4,8 +4,9 @@ import (
 	"errors"
 	"syscall"
 	"unsafe"
-
-	"code.google.com/p/winsvc/winapi"
+	
+	"github.com/golang/sys/tree/master/windows/svc"
+	//"code.google.com/p/winsvc/winapi"
 )
 
 // TODO: Solve error in query DWORD registry
