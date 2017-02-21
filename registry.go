@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"unsafe"
 	
-	"github.com/golang/sys/tree/master/windows/svc"
+	"github.com/btcsuite/winsvc/winapi"
 	//"code.google.com/p/winsvc/winapi"
 )
 
